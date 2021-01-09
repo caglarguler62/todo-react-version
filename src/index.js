@@ -6,10 +6,18 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App appName='Click App'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
+// function Header(){
+//   return (
+//     <div>
+//       <h1>Hello World</h1>
+//       <p> This is a parent / child</p>
+//     </div>
+//   )
+// }
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
